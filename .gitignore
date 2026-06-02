@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# nanoHUB session artifacts / scratch
+temporary/
+.AURA/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Local staging of original July files (pickles: not committed; coefficients are in
+# workflows/melthea/data/reference_model_jul17.json)
+files/
+*.pkl
+
+# Local assistant briefing (not published)
+CLAUDE.md
