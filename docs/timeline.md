@@ -18,3 +18,8 @@ the entry it adds; see the [README](../README.md#about-this-repos-history).
   `getToolMetadata` failures on MeltHEAs (seen by a lab peer too), and a stalled h-BN elastic tensor run.
 - After the config was saved post-launch, no trace showed up in LangSmith. I reported it.
 - Used a documentation protocol based on a `skills.md` Claude Skill that a peer had set up.
+
+## ~Jun 30: week-4 abstract
+
+- Drafted the round-up abstract, "Expanding and Evaluating Autonomous Scientific Workflows on nanoHUB," for
+  mentor review.
