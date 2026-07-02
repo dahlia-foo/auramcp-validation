@@ -23,3 +23,7 @@ the entry it adds; see the [README](../README.md#about-this-repos-history).
 
 - Drafted the round-up abstract, "Expanding and Evaluating Autonomous Scientific Workflows on nanoHUB," for
   mentor review.
+
+## ~Jul 2: lab blog post
+
+- Wrote the catch-up blog post covering weeks 3–5.
