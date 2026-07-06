@@ -27,3 +27,9 @@ the entry it adds; see the [README](../README.md#about-this-repos-history).
 ## ~Jul 2: lab blog post
 
 - Wrote the catch-up blog post covering weeks 3–5.
+
+## ~Jul 6: registering the MCP servers
+
+- Registered the `auramcp` and `nanohubdemo` HTTP servers in Claude Code.
+- Fixed connection failures caused by the auth header, which needs the `Bearer` prefix.
+- Settled on `claude mcp remove` followed by `claude mcp add` for updating an existing entry.
