@@ -33,3 +33,12 @@ the entry it adds; see the [README](../README.md#about-this-repos-history).
 - Registered the `auramcp` and `nanohubdemo` HTTP servers in Claude Code.
 - Fixed connection failures caused by the auth header, which needs the `Bearer` prefix.
 - Settled on `claude mcp remove` followed by `claude mcp add` for updating an existing entry.
+
+## ~Jul 8: Gilbreth "Failed to Connect"
+
+- Debugged a peer's Materials Project MCP connection on Purdue's Gilbreth cluster. There were two layered causes:
+  a stale editable `mp_api` 0.46.0 install (it imported `BSPathType`, which emmet-core 0.87.1 no longer has),
+  and a per-project `~/.claude.json` pointing at the wrong conda env.
+- Wrote a progress report for JC and a reusable runbook ([report](gilbreth-troubleshooting-report.md),
+  [runbook](gilbreth-runbook.md)).
+- Week ending Jul 10: filed a nanoHUB ticket with server-error logs.
