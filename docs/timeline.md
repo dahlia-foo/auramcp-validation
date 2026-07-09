@@ -42,3 +42,7 @@ the entry it adds; see the [README](../README.md#about-this-repos-history).
 - Wrote a progress report for JC and a reusable runbook ([report](gilbreth-troubleshooting-report.md),
   [runbook](gilbreth-runbook.md)).
 - Week ending Jul 10: filed a nanoHUB ticket with server-error logs.
+
+## ~Jul 9: paper structure
+
+- Mapped the project onto an IMRaD (Introduction, Methods, Results, Discussion) outline and planned the figures.
