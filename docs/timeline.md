@@ -46,3 +46,8 @@ the entry it adds; see the [README](../README.md#about-this-repos-history).
 ## ~Jul 9: paper structure
 
 - Mapped the project onto an IMRaD (Introduction, Methods, Results, Discussion) outline and planned the figures.
+
+## ~Jul 13: reading
+
+- Summarized JC and Dr. Strachan's paper evaluating LLM-generated LAMMPS code (*Computational Materials Science*,
+  June 2026).
