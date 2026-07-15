@@ -51,3 +51,10 @@ the entry it adds; see the [README](../README.md#about-this-repos-history).
 
 - Summarized JC and Dr. Strachan's paper evaluating LLM-generated LAMMPS code (*Computational Materials Science*,
   June 2026).
+
+## ~Jul 15: first h-BN attempt, two bugs reported
+
+- `Materials-Project-MCP:get_structure` failed on every input (`list indices must be integers or slices, not str`).
+- `AURAMCP:run_sim2l` on `cellrelaxdft` failed whenever `structure_dict` was a dict, with a misleading
+  "missing `chosen_outputs`" error. I isolated it by bisection; it reproduced with a minimal single-site dict.
+- No DFT ran. I exported the session log to JC as a bug report. Details: [bug-reports.md](bug-reports.md).
