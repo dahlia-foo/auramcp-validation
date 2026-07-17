@@ -1,0 +1,27 @@
+{
+  "source": "meltheas_Tsolid_model.pkl (saved 2026-07-17, sklearn 1.8.0)",
+  "model": "LinearRegression(fit_intercept=False)",
+  "target": "input.Tsolid (K)",
+  "feature_order": [
+    "input.composition1",
+    "input.composition2",
+    "input.composition3",
+    "input.composition4",
+    "input.composition5"
+  ],
+  "elements": [
+    "Cr",
+    "Co",
+    "Cu",
+    "Fe",
+    "Ni"
+  ],
+  "coef_K": {
+    "Cr": 1252.1774,
+    "Co": 1424.9619,
+    "Cu": 783.8772,
+    "Fe": 1743.0711,
+    "Ni": 1426.8787
+  },
+  "intercept": 0.0
+}

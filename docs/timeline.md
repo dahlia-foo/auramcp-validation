@@ -58,3 +58,15 @@ the entry it adds; see the [README](../README.md#about-this-repos-history).
 - `AURAMCP:run_sim2l` on `cellrelaxdft` failed whenever `structure_dict` was a dict, with a misleading
   "missing `chosen_outputs`" error. I isolated it by bisection; it reproduced with a minimal single-site dict.
 - No DFT ran. I exported the session log to JC as a bug report. Details: [bug-reports.md](bug-reports.md).
+
+## ~Jul 17: MeltHEAs pipeline and first ESMFold run
+
+- Pulled 2,000 successful MeltHEAs runs from ResultsDB (Coexistence = 1, Converged = 1). Found that
+  Tliquid = 2 × Tsolid holds as a fixed convention in this data.
+- Fit a no-intercept linear model (rule of mixtures): test R² 0.983, MAE 19.2 K. Ridge, polynomial, random forest,
+  and gradient boosting did no better.
+- Confirmed Cr0.15 Co0.15 Cu0.35 Fe0.15 Ni0.20 had no existing runs (`find_novel_datapoints`), then ran it live:
+  **Tm = 1891.7 ± 1.8 K**. → [`workflows/melthea/`](../workflows/melthea/)
+- Ran ESMFold (`proteindl`) on E. coli asparagine synthetase A and saved the 3Dmol backbone viewer.
+  → [`workflows/protein/`](../workflows/protein/)
+- In-person poster review the same day.
