@@ -70,3 +70,7 @@ the entry it adds; see the [README](../README.md#about-this-repos-history).
 - Ran ESMFold (`proteindl`) on E. coli asparagine synthetase A and saved the 3Dmol backbone viewer.
   → [`workflows/protein/`](../workflows/protein/)
 - In-person poster review the same day.
+
+## ~Jul 20: `get_structure` confirmed systemic
+
+- It failed on all six BN polymorphs and on mp-149 (Si). I sent JC the full transcript.
