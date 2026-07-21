@@ -74,3 +74,11 @@ the entry it adds; see the [README](../README.md#about-this-repos-history).
 ## ~Jul 20: `get_structure` confirmed systemic
 
 - It failed on all six BN polymorphs and on mp-149 (Si). I sent JC the full transcript.
+
+## ~Jul 21: h-BN elastic constants
+
+- JC reported the `cellrelaxdft` bug fixed. I built the structure from `fetch_material` by hand, since
+  `get_structure` was still down.
+- cellrelaxdft: a = 2.5024 Å, c = 7.1534 Å. elasticdft: the first job came back `not_found`, and the retry finished.
+- C11 = 820.7, C33 = 3.7 GPa; bulk modulus (VRH) 114.6 GPa. The small interlayer constants are expected from
+  PBEsol without vdW. → [`workflows/hbn-elastic/`](../workflows/hbn-elastic/)
