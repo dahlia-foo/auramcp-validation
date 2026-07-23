@@ -82,3 +82,9 @@ the entry it adds; see the [README](../README.md#about-this-repos-history).
 - cellrelaxdft: a = 2.5024 Å, c = 7.1534 Å. elasticdft: the first job came back `not_found`, and the retry finished.
 - C11 = 820.7, C33 = 3.7 GPa; bulk modulus (VRH) 114.6 GPa. The small interlayer constants are expected from
   PBEsol without vdW. → [`workflows/hbn-elastic/`](../workflows/hbn-elastic/)
+
+## ~Jul 23: AlphaFold comparison
+
+- Ran the same AsnA sequence through AlphaFold (`alphafold231`), which needed retries after the job expired.
+  Mean pLDDT was 97.95, vs. 90.19 for ESMFold.
+- The Kabsch Cα RMSD between the two predictions was 0.62 Å.
