@@ -88,3 +88,8 @@ the entry it adds; see the [README](../README.md#about-this-repos-history).
 - Ran the same AsnA sequence through AlphaFold (`alphafold231`), which needed retries after the job expired.
   Mean pLDDT was 97.95, vs. 90.19 for ESMFold.
 - The Kabsch Cα RMSD between the two predictions was 0.62 Å.
+
+## ~Jul 24: poster revisions
+
+- Poster text and audit, v3 through v5. Made the ribbon-cartoon ESMFold view for the poster.
+- Two practice presentations the next morning.
