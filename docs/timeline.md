@@ -93,3 +93,7 @@ the entry it adds; see the [README](../README.md#about-this-repos-history).
 
 - Poster text and audit, v3 through v5. Made the ribbon-cartoon ESMFold view for the poster.
 - Two practice presentations the next morning.
+
+## ~Jul 28: poster v6
+
+- Added three Sim2L task cards: MeltHEAs, ESMFold/AlphaFold2, and elastic constants.
