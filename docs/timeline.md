@@ -97,3 +97,9 @@ the entry it adds; see the [README](../README.md#about-this-repos-history).
 ## ~Jul 28: poster v6
 
 - Added three Sim2L task cards: MeltHEAs, ESMFold/AlphaFold2, and elastic constants.
+
+## ~Jul 29: final poster and h-BN re-run
+
+- Final poster: "AURAMCP: Enhancing nanoHUB's FAIR Workflows and Data through MCP Servers" → [`poster/`](../poster/)
+- h-BN re-run: `get_structure` worked again. `cellrelaxdft` succeeded. `elasticdft` was still running when the
+  session ended.
