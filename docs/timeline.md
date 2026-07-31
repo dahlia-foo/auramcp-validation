@@ -103,3 +103,8 @@ the entry it adds; see the [README](../README.md#about-this-repos-history).
 - Final poster: "AURAMCP: Enhancing nanoHUB's FAIR Workflows and Data through MCP Servers" → [`poster/`](../poster/)
 - h-BN re-run: `get_structure` worked again. `cellrelaxdft` succeeded. `elasticdft` was still running when the
   session ended.
+
+## ~Jul 30: symposium prep
+- Wrote a Q&A guide for the next day's poster symposium.
+- Drafted an Honors paper with JC's corrections folded in. I decided not to submit it and wrote a shorter
+  technical paper instead.
