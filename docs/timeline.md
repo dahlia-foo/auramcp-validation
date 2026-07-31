@@ -108,3 +108,9 @@ the entry it adds; see the [README](../README.md#about-this-repos-history).
 - Wrote a Q&A guide for the next day's poster symposium.
 - Drafted an Honors paper with JC's corrections folded in. I decided not to submit it and wrote a shorter
   technical paper instead.
+
+## ~Jul 31: wrap-up
+
+- Post-experience survey. Thanked JC and the group.
+- Also set up AURAMCP on three researchers' machines during July, twice. The second round came after JC and
+  Daniel shipped a new connector version, so I rewrote the setup tutorial.
