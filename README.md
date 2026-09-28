@@ -1,7 +1,7 @@
 # AURAMCP validation (SURF 2026)
 
 This repo reproduces and documents the validation work I did on **AURAMCP** as a SURF 2026
-fellow (June 2 – July 31, 2026) in the Strachan Research Group / Network for Computational
+fellow (May 25 – July 31, 2026) in the Strachan Research Group / Network for Computational
 Nanotechnology (NCN) at Purdue.
 
 ## What AURAMCP is
