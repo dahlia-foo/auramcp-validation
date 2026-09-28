@@ -30,7 +30,25 @@ I was a backend tester and validator. I:
 
 ## Workflows
 
-See the [timeline](docs/timeline.md) as the summer goes.
+| Workflow | Summary | Folder |
+|---|---|---|
+| MeltHEAs melting | Rule-of-mixtures regression on 2,000 ResultsDB runs (test R² 0.983), then one live run on a new composition | [`workflows/melthea/`](workflows/melthea/) |
+| Protein structure | ESMFold on *E. coli* AsnA (mean pLDDT 90.19), extracted from the saved 3Dmol viewers. AlphaFold comparison recorded from notes | [`workflows/protein/`](workflows/protein/) |
+| h-BN elastic constants | cellrelaxdft → elasticdft. Full elastic tensor, with VRH moduli recomputed from the raw output | [`workflows/hbn-elastic/`](workflows/hbn-elastic/) |
+
+## Docs
+
+- [Timeline](docs/timeline.md): what I did each week of the summer
+- [Bugs reported](docs/bug-reports.md): what I found and how I isolated it (fixes were made by the AURAMCP team)
+- [Gilbreth runbook](docs/gilbreth-runbook.md) and [troubleshooting report](docs/gilbreth-troubleshooting-report.md)
+- [Poster](poster/SURF_Poster_final.pdf)
+
+## Setup
+
+```bash
+pip install -r requirements.txt
+cp .env.example .env   # fill in; .env is gitignored
+```
 
 ## About this repo's history
 
